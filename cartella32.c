@@ -2,6 +2,7 @@
 
 int main()
 {
-    int x;
-    printf ("inserisci una sequenza di numeri\n");
-    scanf ("%d", &x);
+    int voti[5] = {5, 6, 4, 2, 7};
+    printf ("%d", voti[2]);
+
+}
