@@ -165,7 +165,7 @@ int main()
             else if(temp == 5)
             {   
                 printf ("Potresti indossare una maglietta a maniche corte, una camicia leggera o una polo, abbinata a pantaloni lunghi in cotone o in lino. Indossa scarpe da ginnastica. \n");
-                printf ("Completa il look con accessori come collane, bracciali e anelli\n")
+                printf ("Completa il look con accessori come collane, bracciali e anelli\n");
             }
             else
             {
@@ -233,7 +233,7 @@ int main()
             else if(temp == 4)
             {
                 printf ("Potresti indossare un abito leggero in seta o in cotone, dei sandali e uno scialle \n");
-                printf ("In alternativa puoi optare per una gonna o dei pantaloni a palazzo e una camicetta di seta. Completa il look con una pochette e dei gioielli\n")
+                printf ("In alternativa puoi optare per una gonna o dei pantaloni a palazzo e una camicetta di seta. Completa il look con una pochette e dei gioielli\n");
             }
             else if(temp == 5)
             {
