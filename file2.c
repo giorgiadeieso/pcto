@@ -95,7 +95,7 @@ while( genere == 1)
         if(temp == 1)
         {
             printf("Potresti indossare una camicia come primo strato, abbinata ad un maglione in cachemire, pantaloni in lana, un cappotto elegante e degli stivaletti in pelle assicurandoti che siano impermeabili in caso di pioggia\n");
-            printf ("Ricorda di indossare accessori come guanti e sciarpa per proteggerti dal freddo durante il tragitto verso il luogo dell'appuntamento"));
+            printf ("Ricorda di indossare accessori come guanti e sciarpa per proteggerti dal freddo durante il tragitto verso il luogo dell'appuntamento");
             printf ("Porta con te l'ombrello in caso di pioggia");
         }
         else if(temp == 2)
