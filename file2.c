@@ -156,7 +156,7 @@ while(genere == 2)
             else if(temp == 4)
             {
                 printf ("Potresti indossare una maglietta a maniche corte, una camicia leggera o una polo, abbinata a dei pantaloni lunghi (in materiale leggero). Indossa scarpe da ginnastica. \n");
-                printf("Altrimenti potresti indossare u" crop top con dei jeans a vita alta e come scarpe sempre delle sneakers ");
+                printf ("Altrimenti potresti indossare un crop top con dei jeans a vita alta e come scarpe sempre delle sneakers");
             }
             else if(temp == 5)
             {   
