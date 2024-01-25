@@ -2,31 +2,45 @@
 
 int main()
 {
-    int g;
-    int m;
-    int a;
-    int gs = 1;
-    int gg1 = 1;
-    int gg2 = 1;
-    int a2 = 2024;
+    int mesi[12] = {31, 29, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    char *giorni[7] = {"lun", "mar", "mer", "gio", "ven", "sab", "dom"};
+    int g = 0;
+    int m = 0;
     int qg = 0;
-    boolean bisest = false;
-    printf ("inserire il giorno di nascita (1-31)\n");
-    scanf ("&d", &g);
-    printf ("inserire il mese di nascita (1-12)\n");
-    scanf ("&d", &m);
-    printf ("inserire l'anno di nascita (aaaa)\n");
-    scanf ("&d", &a);
-    while ( bisest == false)
+    int gs = 0;
+    int p = 0;
+    printf ("inserire un giorno (1-31)\n");
+    scanf ("%d", &g);
+    printf ("inserire un mese (1-12)\n");
+    scanf ("%d", &m);
+
+    if (m==1) 
     {
-        if (m = 11 || m = 4 || m = 6 || m = 9)
+        p = g%7 - 1;
+        printf ("%s", giorni[p]);
+    } 
+    else 
+    {
+     
+         for (int i = 0; i < m; ++i)
         {
-            qg = qg + (30 - g);
+            gs = gs+mesi[i];
+            printf ( "gs = ");  printf ("%d",  gs);
         }
-        else 
-        {
-            qg = qg + (31 - g);
-        }
+        gs = gs + g;
+        p=(gs%7)-1;
+         printf ( "p = " );  printf ("%d",p);
+        printf ("%s",giorni[p]);
     }
+/*
+    while (m - 1 >= 0)
+    {
+        m = m -1;
+        qg = qg + mesi[m - 1];
+    }
+    qg = qg + g;
+    gs = qg % 7;
+    printf ("il giorno è:\n");
+    printf ("%s\n", giorni[gs]);*/
 }
 
