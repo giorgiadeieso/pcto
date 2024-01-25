@@ -19,9 +19,13 @@ int main()
           x = x + 1;
       }
     }
-    if (numero == x)
+     if (numero == x)
     {
         printf ("è un numero primo\n");
+    }
+    else 
+    {
+      printf ("non è primo\n");
     }
     return (0);
 }

@@ -1,15 +1,15 @@
 #include <stdio.h>
 int main()
 {
-   int x;
-   int n;
-   int s;
+   float x;
+   float n;
+   float s;
    float m;
    n = 0;
    s = 0;
    m = 0;
    printf ("inserire un numero\n");
-   scanf ("%d", &x);
+   scanf ("%f", &x);
    while ( x >= 0)
    {
     n = n + 1;
@@ -17,7 +17,7 @@ int main()
     m = s / n;
     printf ("la media: %f\n", m);
     printf ("inserire un numero: ");
-    scanf ("%d", &x);
+    scanf ("%f", &x);
    }
    printf ("errore\n");
 }
