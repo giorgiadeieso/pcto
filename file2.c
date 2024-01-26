@@ -5,7 +5,7 @@ int main()
     int genere;
     int temp;
     int occasione;
-    printf ("Ciao! Benvenuto in BYS- build your style. Scegli il tuo genere:\n1 x uomo \n2 x donna \n");
+    printf ("Ciao! Benvenuto in BYS- Build Your Style. Scegli il tuo genere:\n1 x uomo \n2 x donna \n");
     scanf ("%d", &genere);
     while( genere == 1)
     {
