@@ -14,7 +14,7 @@ int main()
     printf ("inserire un mese (1-12)\n");
     scanf ("%d", &m);
 
-    if (m==1) 
+    if ( m == 1 ) 
     {
         p = g%7 - 1;
         printf ("%s", giorni[p]);
@@ -22,7 +22,7 @@ int main()
     else 
     {
      
-         for (int i = 0; i < m; ++i)
+        for (int i = 0; i < m; ++i)
         {
             gs = gs+mesi[i];
             printf ( "gs = ");  printf ("%d",  gs);
