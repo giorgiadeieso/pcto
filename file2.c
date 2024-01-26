@@ -162,7 +162,7 @@ int main()
             }
             else if(temp == 3)
             {
-                printf ("Potresti indossare una maglietta a maniche lunghe o una camicia leggera, abbinata a un maglione o una giacca a vento. Indossa pantaloni o jeans, oppure una gonna lunga  e sneakers comode.\n");
+                printf ("Potresti indossare una maglietta a maniche lunghe o una camicia, abbinata a un maglione o una giacca a vento. Indossa pantaloni o jeans, oppure una gonna lunga  e sneakers comode.\n");
                 printf ("Altrimenti potresti indossare un vestito lungo, con maniche lunghe e collo alto, potresti indossare una sciarpa e comme scarpe delle sneakeres\n");
                 printf ("Porta con te l'ombrello in caso di pioggia\n");
                 break;
