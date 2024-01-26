@@ -256,7 +256,7 @@ int main()
             }
             else if(temp == 5)
             {
-                printf ("Potresti indossare un vestito leggeto in lino, seta o cotone, dei sandali o dei tacchi\n");
+                printf ("Potresti indossare un vestito leggero in lino, seta o cotone, dei sandali o dei tacchi\n");
                 printf ("Completa il look con pochi accessori e una borsetta");
                 break;
             }
